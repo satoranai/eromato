@@ -1,0 +1,233 @@
+.midash {
+  padding: 0.3em;
+  color: #fff;
+  background: #ffb6c1;
+  text-align:center
+}
+  
+ .homedasi {
+  color: #;
+  border-bottom: dashed 2px #000;
+}
+  
+#menu {
+ position: relative;
+ width: 100%;
+ padding-left: 0px;
+ height: 40px;
+ background: #ffb6c1;
+ margin: 0;
+}
+
+.menu-inner{
+ width: 100%;
+ margin: 0 auto;
+ height: 40px;
+}
+
+#menu li {
+ list-style-type: none;
+ float: left;
+ height: 40px;
+ text-align: center;
+ width: 25%;
+}
+
+#menu li a {
+ display: block;
+ color: #ffffff;
+ font-size: 80%;
+ font-weight: bold;
+ letter-spacing: 0.05em;
+ line-height: 40px;
+ text-decoration: none; 
+}
+}
+
+  .banner {
+width: 100%; 
+height: auto;
+  }
+
+  .card {
+  box-sizing: border-box;
+  background: rgb(255, 255, 255);
+  padding: 8px 6px;
+  border: 1px solid rgb(238, 238, 238);
+  box-shadow: rgb(204, 204, 204) 0px 0px 0px;
+  border-radius: 3px;
+  transition: all 0.3s;
+  }
+  
+  .card-heading {
+  box-sizing: border-box;
+  color: rgb(51, 51, 51);
+  cursor: pointer;
+  overflow: hidden;
+  }
+  
+  .link-tooltip {
+  box-sizing: border-box;
+  color: rgb(51, 51, 51);
+  text-decoration: none;
+  vertical-align: baseline;
+  background-size: auto;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-origin: padding-box;
+  background-clip: border-box;
+  }
+  
+  .card-icon {
+  box-sizing: border-box;
+  vertical-align: baseline; 
+  background-size: auto;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-origin: padding-box;
+  background-clip: border-box;
+  width: 18px;
+  height: 18px;
+  float: left;
+  display: block;
+  border-radius: 32px;
+  }
+  
+ .card-title {
+  box-sizing: border-box;
+  margin: 0px 0px 0px 20px;
+  font-size: 13px;
+  vertical-align: baseline;
+  background-size: auto;
+  background-repeat: repeat
+   background-attachment: scroll;
+   background-origin: padding-box;
+   background-clip: border-box;
+   font-weight: 600;
+   display: block;
+   white-space: nowrap;
+  }
+  
+  .sm-3.md-2.xs-4.lg-88 {
+  box-sizing: border-box;
+  position: relative;
+  min-height: 1px;
+  padding: 2px;
+  float: left;
+  width: 125.015625px;
+  caret-color: rgb(102, 102, 102);
+  color: rgb(102, 102, 102);
+  font-size: 14px;
+}
+  
+  body {
+  font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", Arial, メイリオ, Meiryo, sans-serif;
+	    -webkit-font-smoothing: antialiased;
+  font-size: 16px; 
+  line-height: 1.6;
+}
+
+.mida {
+  padding: 1rem 2rem;
+  border-left: 5px solid #666666;
+  background: #fff;
+  color: rgb(000, 000, 000);
+  box-shadow: 2px 2px 4px gray;
+  font-weight:normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn{
+  text-align:left;
+  font-size:13px;
+  font-weight:700;
+  width:200px;
+  padding:10px 0;
+  margin: 1em;
+  border:2px solid #ffb6c1;
+  color:#666666;
+  box-sizing:border-box;
+  display: inline-flex;
+  justify-content:center;
+}
+
+footer{
+  position: sticky
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 15px;
+  background: #ffb6c1;
+  color: #fff;
+  text-align: center;
+}
+
+p {
+padding-left: 8px
+}
+small {
+padding-left: 8px
+}
+h3 {
+padding-left: 8px
+} 
+
+.cp_box *, .cp_box *:before, .cp_box *:after {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.cp_box {
+	position: relative;
+}
+.cp_box label {
+	position: absolute;
+	z-index: 1;
+	bottom: 0;
+	width: 100%;
+	height: 140px; 
+	cursor: pointer;
+	text-align: center;
+	background: linear-gradient(to bottom, rgba(250, 252, 252, 0) 0%, rgba(250, 252, 252, 0.95) 90%);
+	pointer-events: none; 
+}
+.cp_box input:checked + label {
+	background: inherit; 
+}
+.cp_box label:after {
+	content: '\f13a' ' 続きを見る';  
+	position: absolute;
+	width: 16rem;
+	height: auto;
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	cursor: pointer;
+	line-height: 2.5rem;
+	color: #ffffff;
+	border-radius: 20px;
+	background-color: #ffb6c1;
+	pointer-events: auto;
+	text-align: center;
+	font-family: FontAwesome; 
+}
+.cp_box input {
+	display: none;
+}
+.cp_box .cp_container {
+	overflow: hidden;
+	height: 250px; 
+	transition: all 0.5s;
+}
+
+.cp_box input:checked + label:after {
+	font-family: FontAwesome;
+	content: '\f139'' 閉じる';
+}
+.cp_box input:checked ~ .cp_container {
+	height: auto;
+	padding-bottom: 80px;
+	transition: all 0.5s;
+}
